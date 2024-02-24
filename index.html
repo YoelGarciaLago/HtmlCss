@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> CornHub</title> 
         <link rel="stylesheet" href="estilos.css">
+        <link rel="icon" type="image/x-icon" href="imgMarcas/pngtree-corn-on-the-cob-png-image_3930200.jpg">
     </head>
     <body>
         <div class="cabezera">
@@ -11,14 +12,30 @@
                 <img src="imgMarcas/maiz.jpg" alt="Imagen de cabezera">
             </header>
             </div>
-        
             <ul class="menu_superior">
-                <li><a href="a">Novidades</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJUklDSyBST0xM">Novidades</a></li>
                 <li><a href="b">Series</a></li>
                 <li><a href="c">Películas</a></li>
                 <li><a href="d">Xogos</a></li>
                 <li><a href="e">Sobre min</a></li>
             </ul>
-        
+        <div class="sesion">
+            <h2>Inicio de sesión</h2>
+            <form action="Datos/Datos.txt" method="post">
+                <div class="campos">
+                <label for="nombre">Nombre:</label>
+                <br>
+                    <input type="text" placeholder="Nombre de usuario" id="nombre" name="nombre" required>
+                <br>
+                <label for="correo">Correo Electrónico:</label>
+                <br>
+                    <input type="text" placeholder="Correo electrónico" id="correo" name="correo" required>
+                </div>
+                <br><div class="botones"></a>
+                <input type="submit" value="Confirmar"> 
+                <input type="reset">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
