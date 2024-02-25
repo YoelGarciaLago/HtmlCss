@@ -49,3 +49,9 @@ object-fit: cover;
 .campos label[for="nombre"]{
     margin-bottom:10px;
 }
+footer{
+    text-align: center;
+    vertical-align: bottom;
+    font-family:'Courier New', Courier, monospace;
+    border:1px solid black; 
+}
