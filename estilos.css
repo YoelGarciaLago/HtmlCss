@@ -54,4 +54,11 @@ footer{
     vertical-align: bottom;
     font-family:'Courier New', Courier, monospace;
     border:1px solid black; 
+    position: relative;
+    top:200px;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow: auto;
 }
