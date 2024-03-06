@@ -54,6 +54,7 @@ object-fit: cover;
 .botones input [type="submit"], .botones input[type="reset"]{
     margin-left:10px;
     margin-top:5px;
+    margin-bottom: 10px;
 }
 
 .campos input[id="nombre"]{
@@ -64,8 +65,7 @@ object-fit: cover;
     margin-bottom:10px;
 }
 
-.final {
-    
+.final {    
     position: relative;
     top:200px;
 }
@@ -80,6 +80,36 @@ body{
     margin: 0%;
     padding: 0%;
     overflow: auto;
+    width: 100%;
 }
 
+.enlaces ul{
+    list-style-type:none ;
+    width:100%;
 
+}
+
+.enlaces li{
+    float: left;
+    width:20%;
+    text-align: center;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    vertical-align: middle;
+    margin-right: 80px;
+    margin-left: 10px;
+}
+
+.texto_con_fondo{
+    background-image: url(imgMarcas/agricultural-land-green-corn-farm-600nw-1934905055.webp);
+    width: 35%;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 30%;
+    transform: translate(-0%);
+}
