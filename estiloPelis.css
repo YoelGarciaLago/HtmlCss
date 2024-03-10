@@ -57,8 +57,35 @@ body{
 }
 
 .cartelera{
-    margin-top:80px;
+    width: 1300px;
+    height: auto;
+   /* background-color: ;*/
+   border: 1px solid black;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    
+}
+
+.cartelera th{
+    height: 100px;
+    font-size: larger;
+}
+
+.cartelera td{
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.cartelera td img{
+    height: 300px;
+    width: 300px;
+}
+.cartelera table{
+    border-collapse: separate;
+    border-spacing: 6px;
 }
