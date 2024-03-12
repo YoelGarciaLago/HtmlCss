@@ -58,7 +58,7 @@ body{
 
 .cartelera{
     background-color: white;
-    width: 1300px;
+    width: 1200px;
     height: auto;
    /* background-color: ;*/
    border: 1px solid black;
@@ -75,7 +75,7 @@ body{
     height: 100px;
     font-size: larger;
     border: 1px solid black;
-    background-color: #edf772;
+    background-color: #ffecb8;
 }
 
 .cartelera td{
@@ -83,12 +83,13 @@ body{
     width: 300px;
     height: 200px;
     text-align: center;
-    background-color: #edf772;
+    background-color: #ffecb8;
+
     
 }
 .cartelera td img{
-    height: 200px;
-    width: 200px;
+    height: 260px;
+    width: 280px;
 }
 .cartelera table{
     border-collapse: separate;
@@ -122,6 +123,52 @@ body{
 .cartelera td a{
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
+}
+
+.x1 {
+    transition: transform 400ms ease-in-out;
+}
+
+.soporte:hover .x1 {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.soporte {
+    overflow: hidden;
+}
+
+.x2 {
+    transition: transform 400ms ease-in-out;
+}
+
+.x2:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.x3 {
+    transition: transform 400ms ease-in-out;
+}
+
+.x3:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.x4 {
+    transition: transform 400ms ease-in-out;
+}
+
+.x4:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 10px 10px rgb(60, 60, 60);
+    -webkit-box-shadow: 0px 0px 15px 15px rgb(60, 60, 60);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
 

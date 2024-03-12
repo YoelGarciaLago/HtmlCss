@@ -8,15 +8,17 @@
     </head>
     <body> 
         <div class="cabezera">
+            <a >
             <header>
-                <img src="imgMarcas/maiz.jpg" alt="Imagen de cabezera">
+                <a href="index.html"><img src="imgMarcas/maiz.jpg" alt="Imagen de cabezera" ></a>
             </header>
+            </a>
             </div>
             <ul class="menu_superior">
                 <li><a href="a">Novidades</a></li>
-                <li><a href="b">Series</a></li>
+                <li><a href="series.html">Series</a></li>
                 <li><a href="peliculas.html">Películas</a></li>
-                <li><a href="d">Xogos</a></li>
+                <li><a href="xogos.html">Xogos</a></li>
                 <li><a href="sobreMin.html">Sobre min</a></li>
             </ul>
         <div class="sesion">
@@ -43,6 +45,20 @@
         <div class="texto_informativo">
             texto informativo
         </div> 
+        <div class="desplegable">
+            <h2>Película</h2>
+            <nav>
+                <form id="movies">
+                    <select id="movieSelect" name="movie" onchange="window.location.href = this.value;">
+                        <option value="">Selecciona una película</option>
+                        <option value="peliculas.html#p1">Oppenheimer</option>
+                        <option value="peliculas.html#p2">El bufón</option>
+                        <option value="peliculas.html#p3">Plan Familiar</option>
+                        <option value="peliculas.html#p4">Simón</option>
+                    </select>
+                </form>
+            </nav>
+        </div>
         <!--<footer>
          <div class="final">
         <div class="textaco">
@@ -60,10 +76,11 @@
             </div>
         </footer>
         </div> -->
-        <footer style="background-color: aqua;text-align: center;">© 2024 Valve Corporation. Todos los derechos reservados. Todas las marcas registradas pertenecen a sus respectivos dueños en EE. UU. y otros países.
+        <div class="final">
+        <footer >© 2024 Valve Corporation. Todos los derechos reservados. Todas las marcas registradas pertenecen a sus respectivos dueños en EE. UU. y otros países.
             Todos los precios incluyen IVA (donde sea aplicable)
         <br>
-        <br></footer>
-
+        <br><a href="a"><img src="imgMarcas/star-4.png">Acerca de</a><a href="https://www.ejemplo.com/"><img src="imgMarcas/ig.png">Instragram</a><a href="https://www.ejemplo.com/"><img src="imgMarcas/fb.png">Facebook</a><a href="https://www.ejemplo.com/"><img src="imgMarcas/x.png">X</a></footer>
+            </div>
     </body>
 </html>

@@ -1,33 +1,16 @@
-body{
-    padding: 0%;
-    margin: 0%;
-    overflow: auto;
-    width: 100%;    
-    background-color: #fffdd7;
-}
-
 .cabezera{
     width: 100%;
-    height: 200px;
-    overflow: hidden; 
-    margin: 0%;
-    padding: 0%;
+    height: 350px;
+    overflow: hidden;
+    margin:0%;
+    padding-top: 0%;
 }
 
 .cabezera img{
-    width: 100%;
-    height: 100%;
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
-
-/*.titulo{
-    font-size: 80px;
-    font-weight: bold;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: #ff8686;
-    letter-spacing: 55px;
-    text-align: center;
-    margin-top: -120px;
-}*/
 
 .menu_superior{
     margin: 0%;
@@ -58,7 +41,7 @@ body{
 
 .cartelera{
     background-color: white;
-    width: 1300px;
+    width: 1200px;
     height: auto;
    /* background-color: ;*/
    border: 1px solid black;
@@ -73,9 +56,10 @@ body{
 
 .cartelera th{
     height: 100px;
+    
     font-size: larger;
     border: 1px solid black;
-    background-color: #edf772;
+    background-color: #ffecb8;
 }
 
 .cartelera td{
@@ -83,12 +67,13 @@ body{
     width: 300px;
     height: 200px;
     text-align: center;
-    background-color: #edf772;
+    background-color: #ffecb8;
+
     
 }
 .cartelera td img{
-    height: 200px;
-    width: 200px;
+    height: 260px;
+    width: 280px;
 }
 .cartelera table{
     border-collapse: separate;
@@ -122,6 +107,14 @@ body{
 .cartelera td a{
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    overflow: auto;
+    width: 100%;    
+    background-color: #fffdd7;
 }
 

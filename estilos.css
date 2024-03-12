@@ -97,7 +97,7 @@ body{
 */
 .texto_con_fondo{
     background-image: url(imgMarcas/agricultural-land-green-corn-farm-600nw-1934905055.webp);
-    width: 35%;
+    width: 35%; 
     color:white;
     padding: 20px;
     margin-top: -200px;
@@ -116,6 +116,32 @@ body{
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
 }
-.final{
-    background-color: green;
+.final {
+    margin-top: 200px;
+    border-top:5px solid #bebebe;
+    color: #bebebe;
+
+}
+
+.final footer{
+    text-align: center;
+    background-color: #000000;
+}
+
+.final a{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-decoration: none;
+    color:#e9df14;
+}
+.final a img{
+    width:10px;
+    height: 10px;
+}
+
+.desplegable{
+    margin-left: 1700px;
+    position: relative;
+    bottom:600px;
+    right:80px;
 }
