@@ -1,12 +1,62 @@
-body{
+body {
     background-color: black;
     margin: 0%;
     padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
 }
-.cv{
-   width: 50%;
-   height: 100%; 
-   margin-left: 30%;
-   padding-left: auto;
-   padding-right: auto;
+
+.cvEntero {
+    width: 50%;
+    margin-left: 25%;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #e6e6e6;
+    border: 1px solid black;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.resumen{
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.resumen img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.imagen{
+/*    position: relative;
+    left:760px;
+    bottom:200px;*/
+    margin-top: -280px;
+    margin-left: 760px;
+}
+
+.experiencia{
+    width: 400px;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+
+.educacion{
+    width:400px;
+    text-align: right;
+    margin-left: 530px;
+    margin-top: -520px;
+    
+}
+
+.habilidades{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.idiomas{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 70px;
 }

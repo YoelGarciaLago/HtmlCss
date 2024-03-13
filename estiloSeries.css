@@ -118,3 +118,23 @@ body{
     background-color: #fffdd7;
 }
 
+.contenedortabla img{
+    width: 400px;
+    height: 315px;
+    transition: filter 0.5s ease;
+}
+.s1 img:hover {
+    filter: blur(5px);
+}
+
+.s2 img:hover {
+    filter: grayscale(100%);
+}
+
+.s3 img:hover {
+    filter: saturate(500%);
+}
+
+.s4 img:hover {
+    opacity: 0.5;
+}
